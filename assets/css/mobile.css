@@ -1,0 +1,757 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1280px)
+{
+    .ndol-info
+    {
+        top: -100px;
+        right: 32%;
+    }
+}
+
+@media only screen and (max-width : 1200px)
+{
+    .om-farhan
+    {
+        left: 5%;
+    }
+
+    .ndol-info2
+    {
+        top: 120px;
+        right: 55%;
+    }
+
+    .opener
+    {
+        width: 560px;
+        margin-top: 260px;
+        margin-left: 410px;
+        float: left;
+    }
+
+    .a242
+    {
+        width: 90%;
+    }
+
+    .info-head
+    {
+        height: 300px;
+    }
+
+    h3.info
+    {
+        padding-top: 230px;
+        margin-top: 0px;
+    }
+
+    .info-ket .i1 img, .info-ket .i3 img
+    {
+        width: 98%;
+    }
+
+    .info-ket .i2 img
+    {
+        width: 76%;
+    }
+
+    .info-ket
+    {
+        margin-bottom: 50px;
+        float: left;
+        width: 100%;
+    }
+
+    .d1
+    {
+        right: -200px;
+        top: 100px;
+    }
+
+    .d2
+    {
+        left: -200px;
+        bottom: 0px;
+    }
+
+    .d3
+    {
+        right: -300px;
+        bottom: -200px;
+    }
+
+    .jadwal
+    {
+        top: 380px;
+        right: 10px;
+    }
+
+    .ndol-info
+    {
+        right: 30.7%;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+{
+    h2{
+        font-size: 34px;
+    }
+    
+    .opener
+    {
+        width: 358px;
+    }
+
+    .ndol-info2
+    {
+        top: 93px;
+        right: 54%;
+    }
+
+    .info2
+    {
+        font-size: 22px;
+    }
+
+        .info2 div:nth-of-type(1)
+        {
+            width: 40%;
+        }
+
+        .info2 div:nth-of-type(2)
+        {
+            width: 60%;
+        }
+
+    nav
+    {
+        display: none;
+        position: absolute;
+        top: 70px;
+        right: 0px;
+        width: 300px;
+        z-index: 999;
+        background-color: #253476;
+        padding: 20px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+        nav a:hover:before, nav a.active:before
+        {
+            display: none;
+        }
+
+        nav a
+        {
+            float: left;
+            width: 100%;
+            text-align: center;
+            margin: 10px 0px;
+        }
+
+    .d1
+    {
+        right: -260px;
+        top: 100px;
+    }
+
+    .d2
+    {
+        left: -260px;
+        bottom: 0px;
+    }
+
+    .d3
+    {
+        right: -300px;
+        bottom: -150px;
+    }
+
+    .jadwal
+    {
+        top: 100px;
+        right: 10px;
+    }
+
+    .ndol-info
+    {
+        right: 26.6%;
+    }
+}
+
+@media only screen and (max-width : 960px)
+{
+    .opener{
+        float: left;
+        margin-left: 280px;
+    }
+    
+    .ndol-info
+    {
+        right: 26%;
+    }
+
+
+
+    .ndol-info2
+    {
+        top: 89px;
+        right: 53%;
+    }
+}
+
+@media only screen and (max-width : 800px){
+    .opener{
+        margin-top: 195px;
+        width: 325px;
+        margin-left: 320px;
+    }
+    
+    .ndol-info {
+        right: 21%;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+{
+
+    .image-competition-large
+    {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .ndol-info2
+    {
+        top: 60px;
+        right: 52%;
+    }
+
+    .logo-aqua img
+    {
+        width: 70%;
+    }
+
+    .logo-aqua
+    {
+        top: 10px;
+        left: 10px;
+    }
+
+    header
+    {
+        height: 124px;
+    }
+
+    .opener
+    {
+        width: 300px;
+        margin-top: 200px;
+        margin-left: 330px;
+    }
+    
+    .ndol-info {
+        right: 19.8%;
+    }
+
+    .info-ket img
+    {
+        width: 70%;
+    }
+
+    .info-ket .i1 img, .info-ket .i3 img
+    {
+        width: 80%;
+    }
+
+    .info-ket img.plus
+    {
+        width: auto;
+        margin: 0px;
+    }
+
+    .plus1
+    {
+        margin-bottom: 60px;
+    }
+
+    .plus2
+    {
+        margin-top: 60px;
+    }
+
+    .info2
+    {
+        margin-bottom: 40px;
+    }
+
+        .info2 div:nth-of-type(1)
+        {
+            width: 50%;
+            text-align: center;
+        }
+
+        .info2 div:nth-of-type(2)
+        {
+            width: 50%;
+            font-size: 18px;
+        }
+
+    .m-mitos, .m-fakta
+    {
+        font-size: 14px;
+    }
+
+        .m-mitos ul, .m-fakta ul
+        {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .m-mitos li, .m-fakta li
+        {
+            margin-left: 25px;
+            line-height: 20px;
+            width: 90%;
+        }
+
+    .fcopy, .fsocial
+    {
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+        .fcopy span
+        {
+            float: none;
+        }
+
+    .burger
+    {
+        margin-top: 50px;
+    }
+
+    .info2 img
+    {
+        width: 60%;
+    }
+
+    .jadwal
+    {
+        top: 360px;
+        right: 10px;
+    }
+}
+
+@media only screen and (max-width : 667px)
+{
+    .ndol-info
+    {
+        right: 18%;
+    }
+
+    .image-competition-large
+    {
+        width: 50%;
+    }
+
+    .ndol-info2
+    {
+        top: 44px;
+        right: 51%;
+    }
+}
+
+@media only screen and (max-width : 600px)
+{
+    .ndol-info
+    {
+        right: 12%;
+    }
+
+    .ndol-info2
+    {
+        top: 35px;
+        right: 50%;
+    }
+}
+
+@media only screen and (max-width : 568px)
+{
+    .om-farhan
+    {
+        display: block;
+    }
+
+    .ndol-info2
+    {
+        top: 64px;
+        right: 51%;
+    }
+
+    .om-farhan img
+    {
+        width: 90%;
+    }
+
+    .opener
+    {
+        width: 660px;
+    }
+
+    .info-ket img
+    {
+        width: 50%;
+    }
+
+    .info-ket .i2 img
+    {
+        width: 50%;
+    }
+
+    .info-ket .i1 img, .info-ket .i3 img
+    {
+        width: 50%;
+    }
+
+    html, body
+    {
+        zoom: 70%;
+    }
+
+    .ndol-info
+    {
+        right: 30%;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+{
+    .om-farhan
+    {
+        display: none;
+    }
+
+    .logo-aqua img
+    {
+        width: 70%;
+    }
+
+    .ndol-info2
+    {
+        top: 93px;
+        right: 54%;
+    }
+
+    .logo-aqua
+    {
+        top: 10px;
+        left: 10px;
+    }
+
+    header
+    {
+        height: 124px;
+    }
+
+    .opener
+    {
+        width: 90%;
+        margin-top: 240px;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .info-ket img
+    {
+        width: 50%;
+    }
+
+    .info-ket .i2 img
+    {
+        width: 50%;
+    }
+
+    .info-ket .i1 img, .info-ket .i3 img
+    {
+        width: 50%;
+    }
+
+    .info-ket img.plus
+    {
+        width: auto;
+        margin: 0px;
+    }
+
+    .plus1
+    {
+        margin-bottom: 60px;
+    }
+
+    .plus2
+    {
+        margin-top: 60px;
+    }
+
+    .info2
+    {
+        margin-bottom: 40px;
+    }
+
+        .info2 div:nth-of-type(1)
+        {
+            width: 50%;
+            text-align: center;
+        }
+
+        .info2 div:nth-of-type(2)
+        {
+            width: 50%;
+            font-size: 18px;
+        }
+
+    .m-mitos, .m-fakta
+    {
+        font-size: 14px;
+    }
+
+        .m-mitos ul, .m-fakta ul
+        {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .m-mitos li, .m-fakta li
+        {
+            margin-left: 25px;
+            line-height: 20px;
+            width: 90%;
+        }
+
+    .fcopy, .fsocial
+    {
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+        .fcopy span
+        {
+            float: none;
+        }
+
+    .d1
+    {
+        right: -330px;
+        top: 30px;
+    }
+
+    .d2
+    {
+        left: -330px;
+        bottom: 0px;
+    }
+
+    .d3
+    {
+        right: -330px;
+        bottom: -150px;
+    }
+
+    .info2 img
+    {
+        width: 60%;
+    }
+
+    .ndol-info
+    {
+        right: 1.6%;
+    }
+}
+
+@media only screen and (max-width : 414px)
+{
+    .ndol-info
+    {
+        right: 22%;
+    }
+
+    .ndol-info2
+    {
+        top: 80px;
+        right: 53%;
+    }
+}
+
+@media only screen and (max-width : 375px)
+{
+    .ndol-info
+    {
+        right: 20%;
+    }
+
+    .ndol-info2
+    {
+        top: 63px;
+        right: 52%;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+{
+    .logo-aqua img
+    {
+        width: 50%;
+    }
+
+    .logo-aqua
+    {
+        top: 10px;
+        left: 10px;
+    }
+
+    header
+    {
+        height: 124px;
+    }
+
+    .opener
+    {
+/*        width: 100%;*/
+        margin-top: 200px;
+        text-align: center;
+    }
+
+        .opener p
+        {
+            line-height: 35px;
+        }
+
+     .opener h2{
+        font-size: 20px;
+     }
+    
+    .burger
+    {
+        margin-top: 5px;
+        padding: 5px 5px 0px 5px !important;
+        height: 110px;
+    }
+
+    .ndol-info2
+    {
+        top: 45px;
+        right: 50%;
+    }
+
+    .nav
+    {
+        top: -20px !important;
+    }
+
+    .info-ket img
+    {
+        width: 70%;
+    }
+
+    .info-ket .i1 img, .info-ket .i3 img
+    {
+        width: 50%;
+    }
+
+    .info-ket img.plus
+    {
+        width: auto;
+        margin: 0px;
+    }
+
+    .plus1
+    {
+        margin-bottom: 60px;
+    }
+
+    .plus2
+    {
+        margin-top: 60px;
+    }
+
+    .info2
+    {
+        margin-bottom: 40px;
+    }
+
+        .info2 div:nth-of-type(1)
+        {
+            width: 50%;
+            text-align: center;
+        }
+
+        .info2 div:nth-of-type(2)
+        {
+            width: 50%;
+            font-size: 14px;
+        }
+
+    .m-mitos, .m-fakta
+    {
+        font-size: 14px;
+    }
+
+        .m-mitos ul, .m-fakta ul
+        {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .m-mitos li, .m-fakta li
+        {
+            margin-left: 25px;
+            line-height: 20px;
+            width: 90%;
+        }
+
+    .fcopy, .fsocial
+    {
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+        .fcopy span
+        {
+            float: none;
+        }
+
+    .d1
+    {
+        right: -330px;
+        top: 100px;
+    }
+
+    .d2
+    {
+        left: -330px;
+        bottom: 0px;
+    }
+
+    .d3
+    {
+        right: -330px;
+        bottom: -150px;
+    }
+
+    .ndol-info
+    {
+        right: 15%;
+    }
+
+    .jadwal
+    {
+        top: 850px;
+    }
+}

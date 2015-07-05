@@ -1,0 +1,994 @@
+/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html
+{
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection
+{
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection
+{
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr
+{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video
+{
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea
+{
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade
+{
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body
+{
+    background-color: #2c3b80;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body
+{
+    overflow-x: hidden;
+}
+
+header
+{
+    height: 174px;
+}
+
+.logo-aqua
+{
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    bottom: 0px;
+    margin: auto;
+    z-index: 999;
+}
+
+nav
+{
+    margin-top: 96px;
+    float: right;
+}
+
+    nav a
+    {
+        float: left;
+        font-size: 18px;
+        color: #fff;
+        text-decoration: none;
+        margin: 0px 25px;
+        position: relative;
+    }
+
+        nav a:hover
+        {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        nav a:last-child
+        {
+            margin-right: 0px;
+        }
+
+        nav a:after
+        {
+            content: '';
+            position: absolute;
+            height: 2px;
+            border-bottom: 2px solid #fff;
+            width: 92px;
+            left: 0px;
+            right: 0px;
+            bottom: -5px;
+            margin: auto;
+        }
+
+        nav a:before
+        {
+            content: '';
+            position: absolute;
+            height: 17px;
+            width: 13px;
+            background-image: url('../img/water.png');
+            background-repeat: no-repeat;
+            background-position: top left;
+            left: -16px;
+            top: -6px;
+            display: none;
+        }
+
+        nav a:hover:after, nav a.active:after
+        {
+            border-bottom: 2px solid #1e2754;
+        }
+
+        nav a:hover:before, nav a.active:before
+        {
+            display: block;
+        }
+
+.banner
+{
+    background-image: url("../img/bg-header.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 720px;
+}
+
+.plenuk1
+{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 228px;
+    background-image: url('../img/plenuk1.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: 9;
+}
+
+.om-farhan
+{
+    left: 15%;
+    position: absolute;
+    top: 120px;
+    z-index: 0;
+}
+
+.opener
+{
+    float: left;
+    margin-top: 19%;
+    position: relative;
+    width: 640px;
+    margin-left: 400px;
+}
+
+h2
+{
+    color: #004795;
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 26px;
+}
+
+p
+{
+    font-size: 16px;
+    line-height: 26px;
+    color: #004795;
+}
+
+.a242
+{
+    margin-top: 26px;
+}
+
+.infographic
+{
+    padding-bottom: 50px;
+}
+
+.infographic2
+{
+    padding-bottom: 50px;
+    background-color: #fff;
+}
+
+.infographic3
+{
+    padding: 20px 0px;
+    color: #fff;
+}
+
+.plus
+{
+    margin-top: 140px;
+}
+
+.info-head
+{
+    height: 324px;
+    background-image: url('../img/infographic-bg.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.ov
+{
+    overflow: visible;
+}
+
+h3
+{
+    color: #fff;
+    font-size: 32px;
+}
+
+    h3.info
+    {
+        margin-top: 240px;
+    }
+
+    h3.hinfo2
+    {
+        margin-bottom: 50px;
+    }
+
+hr
+{
+    border: none;
+    margin: auto;
+    margin-top: 60px;
+    width: 90%;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 20px;
+}
+
+.info2
+{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+    .info2 div:nth-of-type(1)
+    {
+        width: 30%;
+    }
+
+    .info2 div:nth-of-type(2)
+    {
+        width: 70%;
+    }
+
+    .info2 img
+    {
+        width: 90%;
+    }
+
+    .info2 span
+    {
+        color: #6dcff6;
+        font-weight: bold;
+    }
+
+.info3 h3
+{
+    color: #2c3b80;
+    margin: 40px 0px;
+}
+
+.mitosfakta
+{
+    width: 945px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+    .mitosfakta table
+    {
+        width: 100%;
+    }
+
+    .mitosfakta td
+    {
+        padding: 5px 15px;
+        font-size: 22px;
+        color: #2c3b80;
+    }
+
+        .mitosfakta td.npad
+        {
+            padding: 0px;
+        }
+
+        .mitosfakta td.le
+        {
+            height: 56px;
+            background-color: #d6d5e3;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+
+.lm
+{
+    width: 310px;
+}
+
+.lf
+{
+    background-color: #dff0fa;
+}
+
+.m-mitosfakta th
+{
+    font-size: 22px;
+    padding: 10px 15px;
+    color: #fff;
+}
+
+    .m-mitosfakta th:first-child
+    {
+        background-color: #2c3a80;
+    }
+
+    .m-mitosfakta th:last-child
+    {
+        background-color: #68c8ef;
+    }
+
+.m-mitos, .m-fakta
+{
+    padding: 15px;
+    font-size: 22px;
+    border-bottom: 2px solid #fff;
+}
+
+.m-mitos
+{
+    background-color: #d6d5e3;
+}
+
+.m-fakta
+{
+    background-color: #dff0fa;
+}
+
+.le li, .m-mitos li
+{
+    list-style: none;
+    list-style-type: none;
+    list-style-image: url('../img/smitos.png');
+    float: left;
+    width: 100%;
+    line-height: 28px;
+}
+
+.lf li, .m-fakta li
+{
+    list-style: none;
+    list-style-type: none;
+    list-style-image: url('../img/sfakta.png');
+    float: left;
+    width: 100%;
+    line-height: 28px;
+}
+
+footer
+{
+    height: 700px;
+    background-image: url('../img/kubah-bawah.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: #fff;
+}
+
+.footer-cp
+{
+    background-color: #f7f7fa;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 20px 0px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.copy
+{
+    margin-top: 10px;
+}
+
+.fsocial
+{
+    text-align: right;
+}
+
+.social
+{
+    width: 32px;
+    height: 32px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.separator
+{
+    display: inline-block;
+    background-image: url('../img/separator.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 2px;
+    height: 32px;
+    margin: 0px 10px;
+}
+
+.facebook
+{
+    background-image: url('../img/facebook.png');
+}
+
+.twitter
+{
+    background-image: url('../img/twitter.png');
+}
+
+.instagram
+{
+    background-image: url('../img/instagram.png');
+}
+
+.youtube
+{
+    background-image: url('../img/youtube.png');
+}
+
+.burger
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+    float: right;
+    margin-top: 90px;
+    border: 1px solid #7c88c0;
+    padding: 10px 20px 4px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+    .burger:hover
+    {
+        color: #68c8ef;
+        border: 1px solid #68c8ef;
+    }
+
+.decor
+{
+    width: 395px;
+    height: 406px;
+    background-image: url('../img/decor.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 99;
+}
+
+.d1
+{
+    right: -150px;
+    top: 100px;
+}
+
+.d2
+{
+    left: -150px;
+    bottom: 0px;
+}
+
+.d3
+{
+    right: -150px;
+    bottom: -200px;
+}
+
+.jadwal
+{
+    width: 207px;
+    height: 207px;
+    background-image: url('../img/jadwal.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 70px;
+    top: 290px;
+    z-index: 999;
+}
+
+.jdh
+{
+    display: none;
+}
+
+.ndol-info
+{
+    width: 118px;
+    height: 99px;
+    background-image: url('../img/ndol-lihat-infographic.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -100px;
+    right: 33.9%;
+    z-index: 999;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ */
+
+.tcenter
+{
+    text-align: center;
+}
+
+.left
+{
+    float: left;
+    position: relative;
+}
+
+.right
+{
+    float: right;
+    position: relative;
+}
+
+.full
+{
+    width: 100%;
+}
+
+.hidden
+{
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden
+{
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+    /*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+    .visuallyhidden.focusable:active,
+    .visuallyhidden.focusable:focus
+    {
+        clip: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        position: static;
+        width: auto;
+    }
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible
+{
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after
+{
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after
+{
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em)
+{
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi)
+{
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print
+{
+    *,
+    *:before,
+    *:after
+    {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited
+    {
+        text-decoration: underline;
+    }
+
+        a[href]:after
+        {
+            content: " (" attr(href) ")";
+        }
+
+    abbr[title]:after
+    {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after
+    {
+        content: "";
+    }
+
+    pre,
+    blockquote
+    {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead
+    {
+        display: table-header-group;
+    }
+
+    tr,
+    img
+    {
+        page-break-inside: avoid;
+    }
+
+    img
+    {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3
+    {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3
+    {
+        page-break-after: avoid;
+    }
+}
+
+/* additional css philipherlambang */
+
+.text-uppercase
+{
+    text-transform: uppercase;
+}
+
+.text-thin
+{
+    font-weight: 300;
+}
+
+.text-blue
+{
+    color: #2c3b80;
+}
+
+.text-white
+{
+    color: #fff;
+}
+
+.title-large
+{
+    font-size: 32px;
+    margin: 40px 0;
+}
+
+.plenuk2
+{
+    background-image: url("../img/plenuk2.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 0;
+    height: 323px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.plenuk3
+{
+    background-image: url("../img/plenuk3.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 0;
+    height: 235px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.competition-rule td
+{
+    padding: 10px 10px 10px 0;
+    vertical-align: middle;
+    color: white;
+}
+
+.button-general
+{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 20px 40px;
+    background: none;
+    border: 4px solid #fff;
+    display: inline-block;
+    margin: 70px 0 20px 0;
+}
+
+    .button-general:hover
+    {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+.imageContainer
+{
+    display: block;
+    margin: 10px 0;
+}
+
+.pp_social
+{
+    display: none;
+}
+
+.fixed
+{
+    position: fixed;
+    top: 27em;
+    right: 1em;
+}
+
+.ndol-info2
+{
+    background-image: url("../img/lihatVideo.png");
+    background-repeat: no-repeat;
+    height: 99px;
+    position: absolute;
+    right: 56%;
+    top: 172px;
+    width: 136px;
+    z-index: 999;
+}
+
+.banner2
+{
+    background-image: url('../img/bg-header.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+    .banner2 .decor.d2
+    {
+        z-index: 0;
+    }
+
+.mt20
+{
+    margin-top: 20px;
+}
+
+#overlay
+{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    cursor: wait;
+    background: #041128;
+    z-index: 99;
+    opacity: .5;
+    -ms-filter: "alpha (opacity=50)";
+    filter: alpha (opacity=50);
+}
+
+    #overlay img
+    {
+        top: 47%;
+        left: 47%;
+        position: fixed;
+    }
+
+.footer-3
+{
+    height: 700px;
+    background-image: url('../img/kubah-bawah2.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: #fff;
+}
+
+.footer-cp
+{
+    background-color: #344385;
+    color: #fff;
+}
+
+.button-general-inverse
+{
+    text-align: center;
+    text-transform: uppercase;
+    color: #2c3b80;
+    padding: 20px 40px;
+    background: none;
+    border: 4px solid #2c3b80;
+    display: inline-block;
+    margin: 70px 0 20px 0;
+}
+
+    .button-general-inverse:hover
+    {
+        color: #2c3b80;
+        text-decoration: underline;
+    }
+
+.text-blue
+{
+    color: #2c3b80 !important;
+}
