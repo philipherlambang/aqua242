@@ -120,6 +120,11 @@
 }
 
 @media only screen and (max-width : 1024px){
+    .opener{
+        margin-top: 150px;
+        width: 400px;
+    }
+    
     .ndol-info
     {
         right: 27.3%;
@@ -491,7 +496,7 @@
 {
     .om-farhan
     {
-        display: block;
+        display: none;
     }
 
     .ndol-info2
@@ -511,7 +516,12 @@
 
     .opener
     {
-        width: 660px;
+        width: 350px;
+        margin-left: 90px;
+    }
+    
+    .opener p{
+        text-align: center;
     }
 
     .info-ket img
